@@ -9,13 +9,16 @@
 
 main() {
 
+  DART_SASS_VERSION=1.93.2
+  GO_VERSION=1.25.3
   HUGO_VERSION=0.152.2
-
+  NODE_VERSION=22.20.0
 
   export TZ=Europe/Oslo
 
 
-"
+
+
 
   # Install Hugo
   echo "Installing Hugo ${HUGO_VERSION}..."
